@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>
+      Proyecto 3
+    </title>
+    <meta charset="UTF-8">
+    <meta name="title" content="Proyecto 3">
+    <style>
+        .body{
+            background-color: #eee;
+           
+       
+        }
+
+       #header{
+       display: flex;
+       background-color #eee;
+       justify-content: flex-start;
+             
+       
+        }
+        nav{
+          position: fixed;
+        }
+
+       #header-img{
+       border-width: 2px;
+       border-style: solid;
+       border-color: brown;
+       height: 70px;
+       width: 150px;
+       margin-left: 70px;
+        }
+     #nav-bar{
+         margin-left: 900px;
+         margin-top: 1px;
+     }
+
+    
+      nav a{
+      text-decoration:none;
+      color:inherit;
+      font-size:14px;
+      
+      }
+            
+    nav li{
+      display:inline-block;
+      width:150px;
+      height:30px;
+      padding:5px 10px;
+      background-color:#000;
+      border:1px solid #000;
+      text-align:center;
+      color:#fff;
+      position:relative;
+}
+
+nav li:hover{
+      background-color:#fff;
+      color:#000;
+      }
+            
+nav li>ul{
+      display:none;
+      }
+
+nav li:hover>ul{
+      display:block;
+      position:absolute;
+      top:30px;
+      left:0px;
+}
+
+@media (min-width: 600px) {
+    formulario {
+      flex-wrap: nowrap;
+    }
+       #formulario{
+
+       display: flex;
+       background-color: #eee;
+       justify-content: center;
+     
+    }
+        }
+     
+    #email{
+        width: 280px;
+    }
+
+    #submit{
+        background-color:khaki;
+        color: black;
+        text-align: center;
+        text-transform: uppercase;
+        margin-left: 70px;
+    }
+        
+
+    #centro{
+       display: flex;
+       background-color: #eee;
+       justify-content: center;
+       flex-direction:column;
+       width: 1500px; 
+       height: 600px;
+       margin-top: 20px;
+       flex-wrap: nowrap;
+
+       }
+
+    #gato{
+    margin-top: 20px;
+    background-color:gainsboro ;
+    width:900px ;height: 800px;
+    margin-left: 500px;
+   
+       }
+
+      #gatos{
+    
+       padding: 2px;
+
+         }
+
+    #tigre{
+    margin-top: 20px;
+    background-color: gainsboro;
+    width:900px ;height: 800px;
+    margin-left: 500px;
+    
+
+     }   
+
+     #tigres{
+     
+     padding: 2px;
+     
+     } 
+
+     #leon{
+    margin-top: 20px;
+    background-color: gainsboro;
+    width:900px ;height: 800px;
+    margin-left: 500px;
+
+     }
+    
+    #leones{
+    padding: 2px;
+
+    }
+    #videos{
+     display: flex;
+     background-color: #eee;
+     justify-content: center;
+     margin-top: 20px;
+       }
+
+    #box-container{
+    
+    background-color: khaki;
+    width: 500; height: 400px;
+    display:flex; margin-top: 20px; background-color: #eee;
+    flex-wrap: nowrap;
+    justify-content:center;
+   
+    
+}
+#box-1{
+    margin-top: 20px;
+    background-color:gainsboro;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 3px;
+    width:20% ;height: 300px;
+    margin-right: 5px;
+
+}
+#box-2{
+    margin-top: 20px;
+    background-color: gainsboro;
+    border-width: 2px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 3px;
+    width: 20% ;height: 300px;
+    margin-right: 5px;
+}
+#box-3{
+    margin-top: 20px;
+    background-color:gainsboro;
+    border-width: 2px;
+    border-style: solid;
+    border-color:black;
+    border-radius: 3px;
+    width: 20%;height: 300px;
+    margin-right: 5px;
+}
+ 
+
+ #caja11{
+  width: 100% ;height: 50px;
+  background-color: #eee;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+ }
+
+ #caja22{
+  width: 100% ;height: 50px;
+  background-color: #eee;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+ }
+ #caja33{
+  width: 100% ;height: 50px;
+  background-color: #eee;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 10px;
+ }
+  #p1{
+    text-align: center;
+  }
+  #p11{
+    text-align: center;
+  }
+   
+  #p2{
+    text-align: center;
+  }
+  #p22{
+    text-align: center;
+  }
+
+  #p3{
+    text-align: center;
+  }
+  #p33{
+    text-align: center;
+  }
+  #footer{
+    
+       }
+  .pie{
+    background-color: blue;
+    width: 500; height: 20px;
+    display:flex; margin-top: 20px; background-color: #eee;
+    flex-wrap: nowrap;
+    justify-content:center;
+
+  }     
+    </style>
+    </head>
+
+  <body class="body">
+      <header id="header">
+         <img id="header-img" src="https://pixabay.com/get/g265cfb0512c590f5b8328d0d1ea7f78dbd0f2587212ed5de9fd885330dd03b230d038f3050188bcaa28081c169182981da10502c63a076b792f3269bea5fe16b4062d64289f7dd47b0532bc9c7f89b55_1920.jpg" id="header-img" alt="Felicidad felina">
+        
+         <nav id="nav-bar">
+            <ul >
+                <li><a class="nav-link" href="#h1">Inicio</a></li>
+                <li><a class="nav-link" href="#h1">Quiénes somos</a></li>
+                <li><a class="nav-link" href="#h1">Acerca de</a></li>
+                <li><a class="nav-link" href="#h1">Blog</a></li>
+             </ul>
+          </nav>
+       
+      </header>
+
+      
+
+     <div id="formulario">
+     <form id="form" action="https://www. reecodecamp.com/email-submit">
+         <h1 id="h1">Pagina de Aterrizaje</h1><br>
+         <input id="email" name="email" type="email" placeholder="Entre su direccion de correo" required><br><br>
+         <button type="submit" id="submit"><b>Comienza a enviar</b></button>
+      </form>
+     </div>
+      
+       <div id="centro">
+              <div id="gato">
+                <h1>Gatos Salvajes</h1>
+                 <p id="gatos">
+                       <!-- <img id="gatosalvaje" src="https://pixabay.com/get/ge55cab6acea201d0f63089272f46c60b1392331dbe6745d0c1ac08a5f7b2ffa64ae2fe4c4e4acd92453c9a894c047e98eeff9219da134039804c6285b96838739b41b50bae95c2c2bd6666d37d10c3b4_1920.png" alt="gato salvaje">-->
+                    El gato montés, también conocido como gato salvaje o, más formalmente,<br>
+                     como gato montés euroasiático, </p>
+              </div>
+
+              <div id="tigre" > 
+                <h1>Tigres Africanos</h1>
+                <p id="tigres">
+                    <!-- Cabecera <img id="tigressalvaje" src="https://pixabay.com/get/g2601d8eb39413a7f95dba31afe700c518186898b5637728ba051571be1770026e260f91861edc95fe815264d4c6a83c145a9ed87007d800650c3c09d04cf703fe76fa49f926ec98746ed67644fcd0aca_1280.png">--> 
+                     La mayoría de los tigres tienen un pelaje naranja o leonado, un área<br> 
+                     intermedia y ventral blanquecina . </p>
+      
+             </div>
+
+             <div id="leon"> 
+                <h1>Leones Africanos</h1>
+                <p id="leones">
+                <!--  <img id="leonessalvajes" src="https://pixabay.com/get/g275c3f93991c48506510d410c75b6986cb301b938c2a75e5f7843421108dd2b8c83b480f349a60f9b638044bd736a0a8591441bd556f91c7dedf4798e981e85eb2779609186a4432394614b1666e28b3_1280.png">-->
+                  Los leones viven en sabanas llanas cubiertas de pastizales en África<br>
+                  subsahariana.</p>
+            </div>     
+     
+   </div>
+
+     <div id="videos">
+     <video id="video" src="https://vod-progressive.akamaized.net/exp=1644266829~acl=%2Fvimeo-prod-skyfire-std-us%2F01%2F2505%2F26%2F662525715%2F3046729462.mp4~hmac=ad39e78802e940ef3b5ac98e93595df1fdc218594b43da44392a1f95b82d4a62/vimeo-prod-skyfire-std-us/01/2505/26/662525715/3046729462.mp4?download=1&filename=Tiger+-+103363.mp4" width="640" height="480" controls autoplay></video>
+     </div>
+
+    <div id="box-container">
+        <div id="box-1">
+          <div id="caja11"><b>Gatos Salvajes</b></div>
+           <p id="p1"><b>$500.00</b></p>
+           <p id="p11">Tigre Africano<br>
+                       Tigre Cubano<br>
+                       Tigre Ruso<br>
+                       Tigre de la Malasia  
+          </p>
+        </div>
+        <div id="box-2">
+          <div id="caja22"><b>Tigres Salvajes</b></div>
+          <p id="p2"><b>$800.00</b></p>
+           <p id="p22">Tigre Africano<br>
+                       Tigre Cubano<br>
+                       Tigre Ruso<br>
+                       Tigre de la Malasia  
+          </p>
+        </div>
+        <div id="box-3">
+          <div id="caja33"><b>Leones Salvajes</b></div>
+          <p id="p3"><b>$400.00</b></p>
+           <p id="p33">Tigre Africano<br>
+                       Tigre Cubano<br>
+                       Tigre Ruso<br>
+                       Tigre de la Malasia  
+          </p>
+        </div>
+      </div>
+      <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+    <div id="footer">  
+     <footer class="pie">
+        Esta pagina ha sido creada por <a href="http://www.ejemplocodigo.com">www.ejemplocodigo.com</a>
+     </footer>
+    </div> 
+   </body>
+  </html>
